@@ -1,0 +1,17 @@
+{
+  "name": "reciter-skill-alice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "micro",
+    "deploy": "now --public --no-clipboard && now alias && now rm reciter-skill-alice --safe --yes"
+  },
+  "author": "SAPer",
+  "license": "MIT",
+  "dependencies": {
+    "fast-html-parser": "^1.0.1",
+    "micro": "^9.3.2",
+    "node-fetch": "^2.1.2"
+  }
+}
